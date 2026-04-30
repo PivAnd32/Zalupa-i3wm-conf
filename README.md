@@ -36,7 +36,7 @@ chmod +x install.sh
 
 | Keys | Action |
 |-----------------|---------------------------|
-| `$mod + Return` | Open terminal (Alacritty) |
+| `$mod + Enter`  | Open terminal (Alacritty) |
 | `$mod + q`      | Kill focused window       |
 | `$mod + d`      | App launcher (dmenu)      |
 | `$mod + f`      | Toggle fullscreen         |
