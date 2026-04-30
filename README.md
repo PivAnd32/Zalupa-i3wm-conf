@@ -26,7 +26,7 @@
 ## 🚀 Quick start
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/zalupa-i3wm-conf.git
+git clone https://github.com/PivAnd32/Zalupa-i3wm-conf.git
 cd Zalupa-*/
 chmod +x install.sh
 ./install.sh
