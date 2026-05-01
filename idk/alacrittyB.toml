@@ -1,5 +1,5 @@
 [terminal.shell]
-program = "/usr/bin/fish"
+program = "/usr/bin/bash"
 args = ["-l"]
 
 [colors]
