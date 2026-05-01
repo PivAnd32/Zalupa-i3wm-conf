@@ -60,8 +60,8 @@ if [[ "$answer_lower" == "y" || "$answer_lower" == "yes" ]]; then
             pacman)
                 echo "Updating system and installing packages..."
                 sudo pacman -Syu --noconfirm --needed git base-devel
-                echo "Installing main packages: alacritty, picom, nemo, firefox, fastfetch, polybar, zed, feh $INSTALL_FISH "
-                sudo pacman -S --noconfirm --needed alacritty picom nemo firefox fastfetch polybar feh $INSTALL_FISH
+                echo "Installing main packages: alacritty, picom, nemo, firefox, fastfetch, polybar, zed, feh, j4-dmenu-desktop $INSTALL_FISH "
+                sudo pacman -S --noconfirm --needed alacritty picom nemo firefox fastfetch polybar feh j4-dmenu-desktop $INSTALL_FISH
                 if command -v yay &> /dev/null; then
                     echo "yay (AUR helper) is already installed. Skipping..."
                 else
@@ -76,14 +76,14 @@ if [[ "$answer_lower" == "y" || "$answer_lower" == "yes" ]]; then
             apt)
                 echo "Updating system and installing packages..."
                 sudo apt update && sudo apt upgrade
-                echo "Installing main packages: alacritty, picom, nemo, firefox, fastfetch, polybar, zed, feh $INSTALL_FISH"
-                sudo apt install -y alacritty picom nemo firefox polybar fastfetch zed feh $INSTALL_FISH
+                echo "Installing main packages: alacritty, picom, nemo, firefox, fastfetch, polybar, zed, j4-dmenu-desktop, feh $INSTALL_FISH"
+                sudo apt install -y alacritty picom nemo firefox polybar fastfetch zed feh j4-dmenu-desktop $INSTALL_FISH
                 ;;
             dnf|yum)
                 echo "Updating system and installing packages..."
                 sudo $PM update -y
-                echo "Installing main packages: alacritty, picom, nemo, firefox, fastfetch, polybar, zed, feh $INSTALL_FISH"
-                sudo $PM install -y alacritty picom nemo firefox polybar fastfetch zed feh $INSTALL_FISH
+                echo "Installing main packages: alacritty, picom, nemo, firefox, fastfetch, polybar, zed, feh j4-dmenu-desktop $INSTALL_FISH"
+                sudo $PM install -y alacritty picom nemo firefox polybar fastfetch zed feh j4-dmenu-desktop $INSTALL_FISH
                 ;;
         esac
         if [[ -n "$INSTALL_FISH" ]]; then
