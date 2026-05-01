@@ -35,18 +35,18 @@ chmod +x install.sh
 ## ⌨️ Default keybindings (i3wm)
 
 | Keys | Action |
-|-------------------|---------------------------|
-| `$mod + Enter`    | Open terminal (Alacritty) |
-| `$mod + q`        | Kill focused window       |
-| `$mod + d`        | App launcher (dmenu)      |
-| `$mod + f`        | Toggle fullscreen         |
-| `$mod + s`        | Toggle floating mode      |
-| `$mod + a`        | Focus parent container    |
-| `$mod + e`        | Open file manager (Nemo)  |
-| `$mod + z`        | Open Zed editor           |
-| `$mod + c`        | Launch Discord            |
-| `$mod + w`        | Launch Firefox            |
-| '$mod + shift + r | Restart i3-wm             |
+|--------------------|---------------------------|
+| `$mod + Enter`     | Open terminal (Alacritty) |
+| `$mod + q`         | Kill focused window       |
+| `$mod + d`         | App launcher (dmenu)      |
+| `$mod + f`         | Toggle fullscreen         |
+| `$mod + s`         | Toggle floating mode      |
+| `$mod + a`         | Focus parent container    |
+| `$mod + e`         | Open file manager (Nemo)  |
+| `$mod + z`         | Open Zed editor           |
+| `$mod + c`         | Launch Discord            |
+| `$mod + w`         | Launch Firefox            |
+| `$mod + shift + r` | Restart i3-wm             |
 
 > **Note:** `$mod` is usually the `Super` (Windows) key.
 
